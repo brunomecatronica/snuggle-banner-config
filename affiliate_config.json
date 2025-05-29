@@ -1,6 +1,173 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2025-01-22T10:00:00Z",
+  "version": "1.1.0",
+  "last_updated": "2025-01-22T18:00:00Z",
+  
+  "gift_settings": {
+    "enabled": true,
+    "default_gift_link": "https://mercadolivre.com.br/ofertas-presentes",
+    "default_icon_color": "#FF6900",
+    "default_tooltip_text": "Encontrar Presentes",
+    "open_external": true,
+    "analytics_enabled": true
+  },
+
+  "gift_links": [
+    {
+      "id": "mercadolivre_br_gifts",
+      "active": true,
+      "priority": 10,
+      "countries": ["BR"],
+      "gift_link": "https://mercadolivre.com.br/ofertas-presentes?utm_source=snuggle&utm_medium=app&utm_campaign=birthday_gifts",
+      "store_name": "MercadoLivre",
+      "icon_color": "#FFE600",
+      "tooltip_text": "Presentes no MercadoLivre",
+      "open_external": true,
+      "description": "Melhores ofertas de presentes do MercadoLivre Brasil"
+    },
+    
+    {
+      "id": "amazon_br_gifts",
+      "active": true,
+      "priority": 9,
+      "countries": ["BR"],
+      "gift_link": "https://amazon.com.br/presentes?tag=snuggle-20&ref=snuggle_birthday",
+      "store_name": "Amazon Brasil",
+      "icon_color": "#FF9900",
+      "tooltip_text": "Presentes na Amazon",
+      "open_external": true,
+      "description": "Ampla seleção de presentes na Amazon Brasil"
+    },
+
+    {
+      "id": "amazon_us_gifts",
+      "active": true,
+      "priority": 10,
+      "countries": ["US"],
+      "gift_link": "https://amazon.com/gift-ideas?tag=snuggle-20&ref=snuggle_birthday",
+      "store_name": "Amazon USA",
+      "icon_color": "#FF9900",
+      "tooltip_text": "Gift Ideas on Amazon",
+      "open_external": true,
+      "description": "Best gift ideas on Amazon USA"
+    },
+
+    {
+      "id": "shopee_sea_gifts",
+      "active": true,
+      "priority": 8,
+      "countries": ["TH", "SG", "MY", "PH", "VN", "ID"],
+      "gift_link": "https://shopee.sg/search?keyword=gifts&af_sub1=snuggle_birthday",
+      "store_name": "Shopee",
+      "icon_color": "#EE4D2D",
+      "tooltip_text": "Gifts on Shopee",
+      "open_external": true,
+      "description": "Amazing gift deals on Shopee Southeast Asia"
+    },
+
+    {
+      "id": "aliexpress_global_gifts",
+      "active": true,
+      "priority": 7,
+      "countries": ["US", "CA", "GB", "DE", "FR", "ES", "IT", "AU", "NZ"],
+      "gift_link": "https://aliexpress.com/category/gifts?af_sub1=snuggle_birthday&src=snuggle",
+      "store_name": "AliExpress",
+      "icon_color": "#FF6A00",
+      "tooltip_text": "Global Gifts",
+      "open_external": true,
+      "description": "Worldwide gift selection with free shipping"
+    },
+
+    {
+      "id": "ebay_us_gifts",
+      "active": true,
+      "priority": 6,
+      "countries": ["US", "CA"],
+      "gift_link": "https://ebay.com/sch/i.html?_nkw=gifts&_pgn=1&campid=snuggle_birthday",
+      "store_name": "eBay",
+      "icon_color": "#0064D2",
+      "tooltip_text": "Unique Gifts on eBay",
+      "open_external": true,
+      "description": "Find unique and vintage gifts on eBay"
+    },
+
+    {
+      "id": "fnac_fr_gifts",
+      "active": true,
+      "priority": 8,
+      "countries": ["FR", "BE", "CH"],
+      "gift_link": "https://fnac.com/Idees-cadeaux/h26851?utm_source=snuggle&utm_medium=app",
+      "store_name": "Fnac",
+      "icon_color": "#E60012",
+      "tooltip_text": "Idées Cadeaux",
+      "open_external": true,
+      "description": "Les meilleures idées cadeaux chez Fnac"
+    },
+
+    {
+      "id": "otto_de_gifts",
+      "active": true,
+      "priority": 8,
+      "countries": ["DE", "AT"],
+      "gift_link": "https://otto.de/geschenke/?campid=snuggle_birthday",
+      "store_name": "Otto",
+      "icon_color": "#D50000",
+      "tooltip_text": "Geschenkideen",
+      "open_external": true,
+      "description": "Tolle Geschenkideen bei Otto Deutschland"
+    },
+
+    {
+      "id": "argos_uk_gifts",
+      "active": true,
+      "priority": 7,
+      "countries": ["GB", "IE"],
+      "gift_link": "https://argos.co.uk/c/home-and-garden/gifts/10214/?utm_source=snuggle",
+      "store_name": "Argos",
+      "icon_color": "#E3000B",
+      "tooltip_text": "Gift Ideas",
+      "open_external": true,
+      "description": "Great gift selection at Argos UK"
+    },
+
+    {
+      "id": "tmall_cn_gifts",
+      "active": true,
+      "priority": 9,
+      "countries": ["CN", "HK", "TW"],
+      "gift_link": "https://tmall.com/category/gifts?spm=snuggle.birthday.search",
+      "store_name": "天猫",
+      "icon_color": "#FF6000",
+      "tooltip_text": "礼品推荐",
+      "open_external": true,
+      "description": "天猫精选礼品推荐"
+    },
+
+    {
+      "id": "noon_ae_gifts",
+      "active": true,
+      "priority": 7,
+      "countries": ["AE", "SA", "EG"],
+      "gift_link": "https://noon.com/en-ae/gifts?utm_source=snuggle&utm_campaign=birthday",
+      "store_name": "نون",
+      "icon_color": "#FED100",
+      "tooltip_text": "هدايا مميزة",
+      "open_external": true,
+      "description": "أفضل الهدايا من نون"
+    },
+
+    {
+      "id": "flipkart_in_gifts",
+      "active": true,
+      "priority": 8,
+      "countries": ["IN"],
+      "gift_link": "https://flipkart.com/gifts-store?affid=snuggle&affExtParam1=birthday",
+      "store_name": "Flipkart",
+      "icon_color": "#047BD6",
+      "tooltip_text": "उपहार खरीदारी",
+      "open_external": true,
+      "description": "Flipkart पर सबसे अच्छे उपहार"
+    }
+  ],
   
   "banners": [
     {
@@ -17,82 +184,4 @@
       "store": "shopee",
       
       "show_text": false,
-      "show_title": false,
-      "show_subtitle": false,
-      "show_store_badge": false,
-      "show_overlay": false,
-      "show_text_shadow": false,
-      "title_font_size": 20,
-      "subtitle_font_size": 15,
-      "overlay_opacity": 0.8
-    },
-    
-    {
-      "id": "amazon_br_only_title",
-      "active": true,
-      "priority": 9,
-      "countries": ["FR"],
-      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
-      "affiliate_link": "https://amazon.com.br/presentes?tag=seucodigo",
-      "title": "🎁 Amazon Brasil",
-      "subtitle": "Este subtítulo não aparecerá",
-      "background_color": "#FF9900",
-      "text_color": "#FFFFFF",
-      "store": "amazon",
-      
-      "show_text": false,
-      "show_title": false,
-      "show_subtitle": false,
-      "show_store_badge": false,
-      "show_overlay": false,
-      "show_text_shadow": false,
-      "title_font_size": 22,
-      "overlay_opacity": 0.6
-    },
-
-    {
-      "id": "mercadolivre_no_text",
-      "active": true,
-      "priority": 8,
-      "countries": ["BR"],
-      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/banner-ml.png",
-      "affiliate_link": "https://mercadolivre.com/sec/19uGgnn",
-      "title": "Este título não aparecerá",
-      "subtitle": "Este subtítulo também não",
-      "background_color": "#FFE600",
-      "text_color": "#2D3277",
-      "store": "mercadolivre",
-      
-      "show_text": false,
-      "show_title": false,
-      "show_subtitle": false,
-      "show_store_badge": false,
-      "show_overlay": false,
-      "show_text_shadow": false
-    },
-
-    {
-      "id": "aliexpress_custom_style",
-      "active": true,
-      "priority": 7,
-      "countries": ["BR", "US"],
-      "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
-      "affiliate_link": "https://aliexpress.com/presentes?af_sub1=yourcode",
-      "title": "AliExpress Sale",
-      "subtitle": "Free shipping worldwide",
-      "background_color": "#FF4747",
-      "text_color": "#FFFF00",
-      "store": "aliexpress",
-      
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": false,
-      "title_font_size": 16,
-      "subtitle_font_size": 12,
-      "overlay_opacity": 0.5
-    }
-  ]
-}
+      "show_title
