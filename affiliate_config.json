@@ -184,4 +184,82 @@
       "store": "shopee",
       
       "show_text": false,
-      "show_title
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
+      "title_font_size": 20,
+      "subtitle_font_size": 15,
+      "overlay_opacity": 0.8
+    },
+    
+    {
+      "id": "amazon_br_only_title",
+      "active": true,
+      "priority": 9,
+      "countries": ["FR"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
+      "affiliate_link": "https://amazon.com.br/presentes?tag=seucodigo",
+      "title": "🎁 Amazon Brasil",
+      "subtitle": "Este subtítulo não aparecerá",
+      "background_color": "#FF9900",
+      "text_color": "#FFFFFF",
+      "store": "amazon",
+      
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
+      "title_font_size": 22,
+      "overlay_opacity": 0.6
+    },
+
+    {
+      "id": "mercadolivre_no_text",
+      "active": true,
+      "priority": 8,
+      "countries": ["BR"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/banner-ml.png",
+      "affiliate_link": "https://mercadolivre.com/sec/19uGgnn",
+      "title": "Este título não aparecerá",
+      "subtitle": "Este subtítulo também não",
+      "background_color": "#FFE600",
+      "text_color": "#2D3277",
+      "store": "mercadolivre",
+      
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false
+    },
+
+    {
+      "id": "aliexpress_custom_style",
+      "active": true,
+      "priority": 7,
+      "countries": ["BR", "US"],
+      "image_url": "https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=600&h=120&fit=crop",
+      "affiliate_link": "https://aliexpress.com/presentes?af_sub1=yourcode",
+      "title": "AliExpress Sale",
+      "subtitle": "Free shipping worldwide",
+      "background_color": "#FF4747",
+      "text_color": "#FFFF00",
+      "store": "aliexpress",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": false,
+      "title_font_size": 16,
+      "subtitle_font_size": 12,
+      "overlay_opacity": 0.5
+    }
+  ]
+}
