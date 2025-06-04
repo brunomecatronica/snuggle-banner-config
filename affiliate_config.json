@@ -2,6 +2,16 @@
   "version": "2.0.0",
   "last_updated": "2025-01-22T18:00:00Z",
   
+  "app_settings": {
+    "copyright": {
+      "enabled": true,
+      "author_name": "Bruno Oliveira",
+      "link_url": "https://github.com/brunomecatronica",
+      "open_external": true,
+      "show_year": true
+    }
+  },
+  
   "gift_settings": {
     "enabled": true,
     "default_gift_link": "https://amazon.com/gifts",
