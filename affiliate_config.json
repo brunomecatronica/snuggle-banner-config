@@ -131,15 +131,15 @@
       "text_color": "#2D3277",
       "store": "mercadolivre",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
-      "title_font_size": 20,
-      "subtitle_font_size": 15,
-      "overlay_opacity": 0.6
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
+      "title_font_size": 18,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.5
     },
 
     {
@@ -155,15 +155,15 @@
       "text_color": "#FFFFFF",
       "store": "amazon",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
-      "title_font_size": 22,
-      "subtitle_font_size": 16,
-      "overlay_opacity": 0.7
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
+      "title_font_size": 18,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.5
     },
 
     {
@@ -179,15 +179,15 @@
       "text_color": "#FFFFFF",
       "store": "amazon",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
-      "title_font_size": 20,
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
+      "title_font_size": 18,
       "subtitle_font_size": 14,
-      "overlay_opacity": 0.6
+      "overlay_opacity": 0.5
     },
 
     {
@@ -203,12 +203,12 @@
       "text_color": "#FFFFFF",
       "store": "amazon",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
       "title_font_size": 18,
       "subtitle_font_size": 14,
       "overlay_opacity": 0.5
@@ -227,15 +227,15 @@
       "text_color": "#FFFFFF",
       "store": "shopee",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
-      "title_font_size": 20,
-      "subtitle_font_size": 15,
-      "overlay_opacity": 0.8
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
+      "title_font_size": 18,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.5
     },
 
     {
@@ -251,15 +251,15 @@
       "text_color": "#FFFFFF",
       "store": "aliexpress",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
       "title_font_size": 18,
       "subtitle_font_size": 14,
-      "overlay_opacity": 0.7
+      "overlay_opacity": 0.5
     },
 
     {
@@ -275,15 +275,15 @@
       "text_color": "#FFFFFF",
       "store": "jumia",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
-      "title_font_size": 19,
-      "subtitle_font_size": 15,
-      "overlay_opacity": 0.6
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
+      "title_font_size": 18,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.5
     },
 
     {
@@ -291,7 +291,7 @@
       "active": true,
       "priority": 0,
       "countries": ["AU", "NZ"],
-      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-au-banner.png",
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
       "affiliate_link": "https://amazon.com.au/deals?tag=snuggle-22&ref=snuggle_banner_oceania",
       "title": "🏝️ Amazon Australia & NZ",
       "subtitle": "Great deals down under!",
@@ -299,12 +299,12 @@
       "text_color": "#FFFFFF",
       "store": "amazon",
       
-      "show_text": true,
-      "show_title": true,
-      "show_subtitle": true,
-      "show_store_badge": true,
-      "show_overlay": true,
-      "show_text_shadow": true,
+      "show_text": false,
+      "show_title": false,
+      "show_subtitle": false,
+      "show_store_badge": false,
+      "show_overlay": false,
+      "show_text_shadow": false,
       "title_font_size": 18,
       "subtitle_font_size": 14,
       "overlay_opacity": 0.5
