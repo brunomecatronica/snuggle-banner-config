@@ -1,0 +1,313 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2025-01-22T18:00:00Z",
+  
+  "gift_settings": {
+    "enabled": true,
+    "default_gift_link": "https://amazon.com/gifts",
+    "default_icon_color": "#FF6900",
+    "default_tooltip_text": "Encontrar Presentes",
+    "open_external": true,
+    "analytics_enabled": true
+  },
+
+  "gift_links": [
+    {
+      "id": "brazil_mercadolivre",
+      "active": true,
+      "priority": 0,
+      "countries": ["BR"],
+      "gift_link": "https://mercadolivre.com.br/ofertas-presentes?utm_source=snuggle&utm_medium=app&utm_campaign=brazil_gifts",
+      "store_name": "MercadoLivre Brasil",
+      "icon_color": "#FFE600",
+      "tooltip_text": "Presentes no MercadoLivre",
+      "open_external": true,
+      "description": "Maior marketplace do Brasil com milhões de produtos"
+    },
+    
+    {
+      "id": "north_america_amazon",
+      "active": true,
+      "priority": 0,
+      "countries": ["US", "CA", "MX"],
+      "gift_link": "https://amazon.com/gift-ideas?tag=snuggle-20&ref=snuggle_north_america",
+      "store_name": "Amazon North America",
+      "icon_color": "#FF9900",
+      "tooltip_text": "Gift Ideas on Amazon",
+      "open_external": true,
+      "description": "Leading e-commerce platform in North America"
+    },
+
+    {
+      "id": "south_america_amazon",
+      "active": true,
+      "priority": 0,
+      "countries": ["AR", "CL", "CO", "PE", "VE"],
+      "gift_link": "https://amazon.com/international-shopping?tag=snuggle-20&ref=snuggle_south_america",
+      "store_name": "Amazon South America",
+      "icon_color": "#FF9900",
+      "tooltip_text": "Regalos en Amazon",
+      "open_external": true,
+      "description": "Productos internacionales de Amazon para América del Sur"
+    },
+
+    {
+      "id": "europe_amazon",
+      "active": true,
+      "priority": 0,
+      "countries": ["GB", "FR", "DE", "IT", "ES", "NL", "BE", "CH", "AT", "SE", "NO", "DK", "PL", "GR", "HU", "RO", "UA"],
+      "gift_link": "https://amazon.de/geschenkideen?tag=snuggle-21&ref=snuggle_europe",
+      "store_name": "Amazon Europe",
+      "icon_color": "#FF9900",
+      "tooltip_text": "Gift Ideas in Europe",
+      "open_external": true,
+      "description": "Amazon's European marketplace with local shipping"
+    },
+
+    {
+      "id": "asia_shopee",
+      "active": true,
+      "priority": 1,
+      "countries": ["SG", "MY", "TH", "VN", "PH", "ID"],
+      "gift_link": "https://shopee.sg/search?keyword=gifts&af_sub1=snuggle_asia",
+      "store_name": "Shopee Asia",
+      "icon_color": "#EE4D2D",
+      "tooltip_text": "Gifts on Shopee",
+      "open_external": true,
+      "description": "Leading e-commerce platform in Southeast Asia"
+    },
+
+    {
+      "id": "asia_aliexpress",
+      "active": true,
+      "priority": 2,
+      "countries": ["CN", "JP", "KR", "IN", "PK", "BD"],
+      "gift_link": "https://aliexpress.com/category/gifts?af_sub1=snuggle_asia&src=snuggle",
+      "store_name": "AliExpress Asia",
+      "icon_color": "#FF6A00",
+      "tooltip_text": "Global Gifts from Asia",
+      "open_external": true,
+      "description": "Global marketplace with Asian products and worldwide shipping"
+    },
+
+    {
+      "id": "africa_jumia",
+      "active": true,
+      "priority": 0,
+      "countries": ["NG", "KE", "EG", "ZA", "MA"],
+      "gift_link": "https://jumia.com/gifts/?utm_source=snuggle&utm_campaign=africa_gifts",
+      "store_name": "Jumia Africa",
+      "icon_color": "#F68B1E",
+      "tooltip_text": "Gifts in Africa",
+      "open_external": true,
+      "description": "Leading e-commerce platform across Africa"
+    },
+
+    {
+      "id": "oceania_amazon",
+      "active": true,
+      "priority": 0,
+      "countries": ["AU", "NZ"],
+      "gift_link": "https://amazon.com.au/gift-ideas?tag=snuggle-22&ref=snuggle_oceania",
+      "store_name": "Amazon Oceania",
+      "icon_color": "#FF9900",
+      "tooltip_text": "Gift Ideas Australia & NZ",
+      "open_external": true,
+      "description": "Amazon's marketplace for Australia and New Zealand"
+    }
+  ],
+  
+  "banners": [
+    {
+      "id": "brazil_mercadolivre_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["BR"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/banner-ml.png",
+      "affiliate_link": "https://mercadolivre.com.br/ofertas?utm_source=snuggle&utm_medium=banner&utm_campaign=brazil",
+      "title": "🛍️ MercadoLivre Brasil",
+      "subtitle": "Ofertas imperdíveis todos os dias!",
+      "background_color": "#FFE600",
+      "text_color": "#2D3277",
+      "store": "mercadolivre",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 20,
+      "subtitle_font_size": 15,
+      "overlay_opacity": 0.6
+    },
+
+    {
+      "id": "north_america_amazon_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["US", "CA", "MX"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
+      "affiliate_link": "https://amazon.com/deals?tag=snuggle-20&ref=snuggle_banner_na",
+      "title": "🎁 Amazon Deals",
+      "subtitle": "Great deals every day!",
+      "background_color": "#FF9900",
+      "text_color": "#FFFFFF",
+      "store": "amazon",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 22,
+      "subtitle_font_size": 16,
+      "overlay_opacity": 0.7
+    },
+
+    {
+      "id": "south_america_amazon_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["AR", "CL", "CO", "PE", "VE"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-sa-banner.png",
+      "affiliate_link": "https://amazon.com/international?tag=snuggle-20&ref=snuggle_banner_sa",
+      "title": "🌎 Amazon Internacional",
+      "subtitle": "Productos para toda Sudamérica",
+      "background_color": "#FF9900",
+      "text_color": "#FFFFFF",
+      "store": "amazon",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 20,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.6
+    },
+
+    {
+      "id": "europe_amazon_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["GB", "FR", "DE", "IT", "ES", "NL", "BE", "CH", "AT", "SE", "NO", "DK", "PL", "GR", "HU", "RO", "UA"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-eu-banner.png",
+      "affiliate_link": "https://amazon.de/angebote?tag=snuggle-21&ref=snuggle_banner_eu",
+      "title": "🇪🇺 Amazon Europa",
+      "subtitle": "Die besten Angebote für Europa",
+      "background_color": "#FF9900",
+      "text_color": "#FFFFFF",
+      "store": "amazon",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 18,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.5
+    },
+
+    {
+      "id": "asia_shopee_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["SG", "MY", "TH", "VN", "PH", "ID"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
+      "affiliate_link": "https://shopee.sg/deals?af_sub1=snuggle_banner_asia",
+      "title": "🛒 Shopee Mega Sale",
+      "subtitle": "ลดราคาสูงสุด 90% วันนี้!",
+      "background_color": "#EE4D2D",
+      "text_color": "#FFFFFF",
+      "store": "shopee",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 20,
+      "subtitle_font_size": 15,
+      "overlay_opacity": 0.8
+    },
+
+    {
+      "id": "asia_aliexpress_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["CN", "JP", "KR", "IN", "PK", "BD"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/aliexpress-banner.png",
+      "affiliate_link": "https://aliexpress.com/wholesale?af_sub1=snuggle_banner_asia",
+      "title": "🌏 AliExpress Sale",
+      "subtitle": "全球免运费 - Free shipping worldwide",
+      "background_color": "#FF6A00",
+      "text_color": "#FFFFFF",
+      "store": "aliexpress",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 18,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.7
+    },
+
+    {
+      "id": "africa_jumia_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["NG", "KE", "EG", "ZA", "MA"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/jumia-banner.png",
+      "affiliate_link": "https://jumia.com/flash-sales/?utm_source=snuggle&utm_medium=banner",
+      "title": "🌍 Jumia Flash Sales",
+      "subtitle": "Best deals across Africa",
+      "background_color": "#F68B1E",
+      "text_color": "#FFFFFF",
+      "store": "jumia",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 19,
+      "subtitle_font_size": 15,
+      "overlay_opacity": 0.6
+    },
+
+    {
+      "id": "oceania_amazon_banner",
+      "active": true,
+      "priority": 0,
+      "countries": ["AU", "NZ"],
+      "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-au-banner.png",
+      "affiliate_link": "https://amazon.com.au/deals?tag=snuggle-22&ref=snuggle_banner_oceania",
+      "title": "🏝️ Amazon Australia & NZ",
+      "subtitle": "Great deals down under!",
+      "background_color": "#FF9900",
+      "text_color": "#FFFFFF",
+      "store": "amazon",
+      
+      "show_text": true,
+      "show_title": true,
+      "show_subtitle": true,
+      "show_store_badge": true,
+      "show_overlay": true,
+      "show_text_shadow": true,
+      "title_font_size": 18,
+      "subtitle_font_size": 14,
+      "overlay_opacity": 0.5
+    }
+  ]
+}
