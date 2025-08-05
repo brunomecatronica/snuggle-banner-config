@@ -6,9 +6,9 @@
     "copyright": {
       "enabled": true,
       "author_name": "Bruno Oliveira",
-      "link_url": "https://www.volx.com.br",
+      "link_url": "https://www.facebook.com/profile.php?id=61575735074216",
       "open_external": true,
-      "show_year": true,`n      "custom_text": "Snuggle� � Desenvolvido por Bruno Oliveira � 2025"
+      "show_year": true
     }
   },
   
@@ -32,7 +32,7 @@
       "icon_color": "#FFE600",
       "tooltip_text": "Presentes no MercadoLivre",
       "open_external": true,
-      "description": "Maior marketplace do Brasil com milhões de produtos"
+      "description": "Maior marketplace do Brasil com milh�es de produtos"
     },
     
     {
@@ -58,7 +58,7 @@
       "icon_color": "#FF9900",
       "tooltip_text": "Regalos en Amazon",
       "open_external": true,
-      "description": "Productos internacionales de Amazon para América del Sur"
+      "description": "Productos internacionales de Amazon para Am�rica del Sur"
     },
 
     {
@@ -135,8 +135,8 @@
       "countries": ["BR"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/banner-ml.png",
       "affiliate_link": "https://mercadolivre.com/sec/19uGgnn",
-      "title": "🛍️ MercadoLivre Brasil",
-      "subtitle": "Ofertas imperdíveis todos os dias!",
+      "title": "??? MercadoLivre Brasil",
+      "subtitle": "Ofertas imperd�veis todos os dias!",
       "background_color": "#FFE600",
       "text_color": "#2D3277",
       "store": "mercadolivre",
@@ -159,7 +159,7 @@
       "countries": ["US", "CA", "MX"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
       "affiliate_link": "https://amazon.com",
-      "title": "🎁 Amazon Deals",
+      "title": "?? Amazon Deals",
       "subtitle": "Great deals every day!",
       "background_color": "#FF9900",
       "text_color": "#FFFFFF",
@@ -183,8 +183,8 @@
       "countries": ["AR", "CL", "CO", "PE", "VE"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
       "affiliate_link": "https://amazon.com",
-      "title": "🌎 Amazon Internacional",
-      "subtitle": "Productos para toda Sudamérica",
+      "title": "?? Amazon Internacional",
+      "subtitle": "Productos para toda Sudam�rica",
       "background_color": "#FF9900",
       "text_color": "#FFFFFF",
       "store": "amazon",
@@ -207,8 +207,8 @@
       "countries": ["GB", "FR", "DE", "IT", "ES", "NL", "BE", "CH", "AT", "SE", "NO", "DK", "PL", "GR", "HU", "RO", "UA", "RU"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
       "affiliate_link": "https://amazon.de",
-      "title": "🇪🇺 Amazon Europa",
-      "subtitle": "Die besten Angebote für Europa",
+      "title": "???? Amazon Europa",
+      "subtitle": "Die besten Angebote f�r Europa",
       "background_color": "#FF9900",
       "text_color": "#FFFFFF",
       "store": "amazon",
@@ -231,8 +231,8 @@
       "countries": ["SG", "MY", "TH", "VN", "PH", "ID"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/shopee-banner.png",
       "affiliate_link": "https://shopee.com",
-      "title": "🛒 Shopee Mega Sale",
-      "subtitle": "ลดราคาสูงสุด 90% วันนี้!",
+      "title": "?? Shopee Mega Sale",
+      "subtitle": "???????????? 90% ??????!",
       "background_color": "#EE4D2D",
       "text_color": "#FFFFFF",
       "store": "shopee",
@@ -255,8 +255,8 @@
       "countries": ["CN", "JP", "KR", "IN", "PK", "BD"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/aliexpress-banner.png",
       "affiliate_link": "https://aliexpress.com",
-      "title": "🌏 AliExpress Sale",
-      "subtitle": "全球免运费 - Free shipping worldwide",
+      "title": "?? AliExpress Sale",
+      "subtitle": "????? - Free shipping worldwide",
       "background_color": "#FF6A00",
       "text_color": "#FFFFFF",
       "store": "aliexpress",
@@ -279,7 +279,7 @@
       "countries": ["NG", "KE", "EG", "ZA", "MA"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/jumia-banner.png",
       "affiliate_link": "https://jumia.com",
-      "title": "🌍 Jumia Flash Sales",
+      "title": "?? Jumia Flash Sales",
       "subtitle": "Best deals across Africa",
       "background_color": "#F68B1E",
       "text_color": "#FFFFFF",
@@ -303,7 +303,7 @@
       "countries": ["AU", "NZ"],
       "image_url": "https://raw.githubusercontent.com/brunomecatronica/snuggle-banner-config/main/amazon-banner.png",
       "affiliate_link": "https://amazon.com.au",
-      "title": "🏝️ Amazon Australia & NZ",
+      "title": "??? Amazon Australia & NZ",
       "subtitle": "Great deals down under!",
       "background_color": "#FF9900",
       "text_color": "#FFFFFF",
@@ -321,5 +321,3 @@
     }
   ]
 }
-
-
